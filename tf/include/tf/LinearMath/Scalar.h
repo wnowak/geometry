@@ -36,7 +36,7 @@ subject to the following restrictions:
 
 #ifdef _WIN32
 
-		#if defined(__MINGW32__) || defined(__CYGWIN__) || (defined (_MSC_VER) && _MSC_VER < 1300)
+		#if defined(__MINGW32__) || defined(__CYGWIN__) || (defined (_MSC_VER) ) // && _MSC_VER < 1300)
 
 			#define TFSIMD_FORCE_INLINE inline
 			#define ATTRIBUTE_ALIGNED16(a) a
