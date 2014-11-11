@@ -29,10 +29,10 @@
 
 /** \author Tully Foote */
 
+#include <angles/angles.h>
 #include "tf/tf.h"
 #include "ros/assert.h"
 #include "ros/ros.h"
-#include <angles/angles.h>
 
 using namespace tf;
 

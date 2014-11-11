@@ -47,6 +47,8 @@
 
 #include <tf2_ros/buffer.h>
 
+#undef NO_ERROR
+
 namespace tf
 {
 /** \brief resolve tf names */
