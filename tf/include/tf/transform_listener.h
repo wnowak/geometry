@@ -63,7 +63,7 @@ inline std::string getPrefixParam(ros::NodeHandle & nh) {
 
 /** \brief resolve names 
  * \deprecated Use TransformListener::remap  instead */
-std::string remap(const std::string& frame_id) __attribute__((deprecated));
+std::string remap(const std::string& frame_id);
 
 /** \brief This class inherits from Transformer and automatically subscribes to ROS transform messages */
 class TransformListener : public Transformer { //subscribes to message and automatically stores incoming data
